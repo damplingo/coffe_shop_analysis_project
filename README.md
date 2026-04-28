@@ -12,9 +12,9 @@
 | Представление | Назначение |
 |:---|:---|
 | `v_abc_analysis` | ABC-анализ товаров по выручке |
-| ... | ... |
+
 
 Чтобы создать представления, выполните:
-\`\`\`bash
+```bash
 psql -U coffee_analyst -d urban_coffee -f sql/abc_analysis.sql
-\`\`\`
+```
